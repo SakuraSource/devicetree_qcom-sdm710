@@ -28,7 +28,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660_s5_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -45,7 +45,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s1_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -53,7 +53,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s1_floor_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -61,7 +61,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s1_level_ao";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -70,7 +70,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s2_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -79,7 +79,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s3_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -87,7 +87,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_s3_floor_level";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -95,7 +95,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660_s3_level_ao";
 		qcom,hpm-min-load = <100000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -304,7 +304,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_l9_level";
 		qcom,hpm-min-load = <10000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -312,7 +312,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_l9_floor_level";
 		qcom,hpm-min-load = <10000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -321,7 +321,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_l10_level";
 		qcom,hpm-min-load = <10000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
@@ -329,7 +329,7 @@
 		compatible = "qcom,stub-regulator";
 		regulator-name = "pm660l_l10_floor_level";
 		qcom,hpm-min-load = <10000>;
-		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_OFF>;
+		regulator-min-microvolt = <RPMH_REGULATOR_LEVEL_RETENTION>;
 		regulator-max-microvolt = <RPMH_REGULATOR_LEVEL_MAX>;
 	};
 
